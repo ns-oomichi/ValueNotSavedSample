@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2A225E370BB9DDE9CDD02E10 /* Pods_ValueNotSavedSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86624E9913C1E5BB02E64DF /* Pods_ValueNotSavedSample.framework */; };
-		D75BD7E823D19305002C9F0B /* ValueNotSavedSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75BD7E723D19305002C9F0B /* ValueNotSavedSampleTests.swift */; };
 		D75BD7F123D19348002C9F0B /* MyConfigTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75BD7F023D19348002C9F0B /* MyConfigTest.swift */; };
 		D75BD7F423D193CE002C9F0B /* MyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75BD7F323D193CE002C9F0B /* MyConfig.swift */; };
 		D7EED16A23D183F700BC7AD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EED16923D183F700BC7AD6 /* AppDelegate.swift */; };
@@ -33,7 +32,6 @@
 		C86624E9913C1E5BB02E64DF /* Pods_ValueNotSavedSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValueNotSavedSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D196EB0CA6F9A8375D2A8C07 /* Pods-ValueNotSavedSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValueNotSavedSample.debug.xcconfig"; path = "Target Support Files/Pods-ValueNotSavedSample/Pods-ValueNotSavedSample.debug.xcconfig"; sourceTree = "<group>"; };
 		D75BD7E523D19305002C9F0B /* ValueNotSavedSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValueNotSavedSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D75BD7E723D19305002C9F0B /* ValueNotSavedSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueNotSavedSampleTests.swift; sourceTree = "<group>"; };
 		D75BD7E923D19305002C9F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D75BD7F023D19348002C9F0B /* MyConfigTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConfigTest.swift; sourceTree = "<group>"; };
 		D75BD7F323D193CE002C9F0B /* MyConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConfig.swift; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				D75BD7EF23D19330002C9F0B /* Lib */,
-				D75BD7E723D19305002C9F0B /* ValueNotSavedSampleTests.swift */,
 				D75BD7E923D19305002C9F0B /* Info.plist */,
 			);
 			path = ValueNotSavedSampleTests;
@@ -287,7 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D75BD7E823D19305002C9F0B /* ValueNotSavedSampleTests.swift in Sources */,
 				D75BD7F123D19348002C9F0B /* MyConfigTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
