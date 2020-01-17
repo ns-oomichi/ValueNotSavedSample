@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2A225E370BB9DDE9CDD02E10 /* Pods_ValueNotSavedSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86624E9913C1E5BB02E64DF /* Pods_ValueNotSavedSample.framework */; };
+		D75BD7E823D19305002C9F0B /* ValueNotSavedSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75BD7E723D19305002C9F0B /* ValueNotSavedSampleTests.swift */; };
+		D75BD7F123D19348002C9F0B /* MyConfigTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75BD7F023D19348002C9F0B /* MyConfigTest.swift */; };
+		D75BD7F423D193CE002C9F0B /* MyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75BD7F323D193CE002C9F0B /* MyConfig.swift */; };
 		D7EED16A23D183F700BC7AD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EED16923D183F700BC7AD6 /* AppDelegate.swift */; };
 		D7EED16C23D183F700BC7AD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EED16B23D183F700BC7AD6 /* ViewController.swift */; };
 		D7EED16F23D183F700BC7AD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7EED16D23D183F700BC7AD6 /* Main.storyboard */; };
@@ -15,10 +18,25 @@
 		D7EED17423D183F700BC7AD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7EED17223D183F700BC7AD6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D75BD7EA23D19305002C9F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7EED15E23D183F700BC7AD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7EED16523D183F700BC7AD6;
+			remoteInfo = ValueNotSavedSample;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		C41B350FBF242FB3265D2DFD /* Pods-ValueNotSavedSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValueNotSavedSample.release.xcconfig"; path = "Target Support Files/Pods-ValueNotSavedSample/Pods-ValueNotSavedSample.release.xcconfig"; sourceTree = "<group>"; };
 		C86624E9913C1E5BB02E64DF /* Pods_ValueNotSavedSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValueNotSavedSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D196EB0CA6F9A8375D2A8C07 /* Pods-ValueNotSavedSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValueNotSavedSample.debug.xcconfig"; path = "Target Support Files/Pods-ValueNotSavedSample/Pods-ValueNotSavedSample.debug.xcconfig"; sourceTree = "<group>"; };
+		D75BD7E523D19305002C9F0B /* ValueNotSavedSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValueNotSavedSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75BD7E723D19305002C9F0B /* ValueNotSavedSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueNotSavedSampleTests.swift; sourceTree = "<group>"; };
+		D75BD7E923D19305002C9F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75BD7F023D19348002C9F0B /* MyConfigTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConfigTest.swift; sourceTree = "<group>"; };
+		D75BD7F323D193CE002C9F0B /* MyConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConfig.swift; sourceTree = "<group>"; };
 		D7EED16623D183F700BC7AD6 /* ValueNotSavedSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValueNotSavedSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7EED16923D183F700BC7AD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7EED16B23D183F700BC7AD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +47,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D75BD7E223D19305002C9F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7EED16323D183F700BC7AD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,14 +79,40 @@
 				D196EB0CA6F9A8375D2A8C07 /* Pods-ValueNotSavedSample.debug.xcconfig */,
 				C41B350FBF242FB3265D2DFD /* Pods-ValueNotSavedSample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D75BD7E623D19305002C9F0B /* ValueNotSavedSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D75BD7EF23D19330002C9F0B /* Lib */,
+				D75BD7E723D19305002C9F0B /* ValueNotSavedSampleTests.swift */,
+				D75BD7E923D19305002C9F0B /* Info.plist */,
+			);
+			path = ValueNotSavedSampleTests;
+			sourceTree = "<group>";
+		};
+		D75BD7EF23D19330002C9F0B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				D75BD7F023D19348002C9F0B /* MyConfigTest.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		D75BD7F223D193C2002C9F0B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				D75BD7F323D193CE002C9F0B /* MyConfig.swift */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 		D7EED15D23D183F700BC7AD6 = {
 			isa = PBXGroup;
 			children = (
 				D7EED16823D183F700BC7AD6 /* ValueNotSavedSample */,
+				D75BD7E623D19305002C9F0B /* ValueNotSavedSampleTests */,
 				D7EED16723D183F700BC7AD6 /* Products */,
 				952DD0E8CFF43216C13108FD /* Pods */,
 				77BDA33D967A973E75F7195C /* Frameworks */,
@@ -72,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				D7EED16623D183F700BC7AD6 /* ValueNotSavedSample.app */,
+				D75BD7E523D19305002C9F0B /* ValueNotSavedSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +131,7 @@
 		D7EED16823D183F700BC7AD6 /* ValueNotSavedSample */ = {
 			isa = PBXGroup;
 			children = (
+				D75BD7F223D193C2002C9F0B /* Lib */,
 				D7EED16923D183F700BC7AD6 /* AppDelegate.swift */,
 				D7EED16B23D183F700BC7AD6 /* ViewController.swift */,
 				D7EED16D23D183F700BC7AD6 /* Main.storyboard */,
@@ -92,6 +145,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D75BD7E423D19305002C9F0B /* ValueNotSavedSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75BD7EE23D19305002C9F0B /* Build configuration list for PBXNativeTarget "ValueNotSavedSampleTests" */;
+			buildPhases = (
+				D75BD7E123D19305002C9F0B /* Sources */,
+				D75BD7E223D19305002C9F0B /* Frameworks */,
+				D75BD7E323D19305002C9F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D75BD7EB23D19305002C9F0B /* PBXTargetDependency */,
+			);
+			name = ValueNotSavedSampleTests;
+			productName = ValueNotSavedSampleTests;
+			productReference = D75BD7E523D19305002C9F0B /* ValueNotSavedSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D7EED16523D183F700BC7AD6 /* ValueNotSavedSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7EED17823D183F700BC7AD6 /* Build configuration list for PBXNativeTarget "ValueNotSavedSample" */;
@@ -121,6 +192,10 @@
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Ryo Oomichi";
 				TargetAttributes = {
+					D75BD7E423D19305002C9F0B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D7EED16523D183F700BC7AD6;
+					};
 					D7EED16523D183F700BC7AD6 = {
 						CreatedOnToolsVersion = 10.3;
 					};
@@ -140,11 +215,19 @@
 			projectRoot = "";
 			targets = (
 				D7EED16523D183F700BC7AD6 /* ValueNotSavedSample */,
+				D75BD7E423D19305002C9F0B /* ValueNotSavedSampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D75BD7E323D19305002C9F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7EED16423D183F700BC7AD6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,16 +283,34 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D75BD7E123D19305002C9F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75BD7E823D19305002C9F0B /* ValueNotSavedSampleTests.swift in Sources */,
+				D75BD7F123D19348002C9F0B /* MyConfigTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7EED16223D183F700BC7AD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75BD7F423D193CE002C9F0B /* MyConfig.swift in Sources */,
 				D7EED16C23D183F700BC7AD6 /* ViewController.swift in Sources */,
 				D7EED16A23D183F700BC7AD6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D75BD7EB23D19305002C9F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7EED16523D183F700BC7AD6 /* ValueNotSavedSample */;
+			targetProxy = D75BD7EA23D19305002C9F0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D7EED16D23D183F700BC7AD6 /* Main.storyboard */ = {
@@ -231,6 +332,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D75BD7EC23D19305002C9F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BV78K5X3Y;
+				INFOPLIST_FILE = ValueNotSavedSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ValueNotSavedSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValueNotSavedSample.app/ValueNotSavedSample";
+			};
+			name = Debug;
+		};
+		D75BD7ED23D19305002C9F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BV78K5X3Y;
+				INFOPLIST_FILE = ValueNotSavedSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ValueNotSavedSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValueNotSavedSample.app/ValueNotSavedSample";
+			};
+			name = Release;
+		};
 		D7EED17623D183F700BC7AD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -388,6 +529,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D75BD7EE23D19305002C9F0B /* Build configuration list for PBXNativeTarget "ValueNotSavedSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75BD7EC23D19305002C9F0B /* Debug */,
+				D75BD7ED23D19305002C9F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D7EED16123D183F700BC7AD6 /* Build configuration list for PBXProject "ValueNotSavedSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
