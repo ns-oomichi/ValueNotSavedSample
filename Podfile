@@ -8,3 +8,9 @@ target 'ValueNotSavedSample' do
   # Pods for ValueNotSavedSample
 
 end
+
+plugin 'cocoapods-keys', {
+  :project => "NankaProjectName",
+  :keys => [ 'KonoProjectDeTukauValue' ]
+}
+
