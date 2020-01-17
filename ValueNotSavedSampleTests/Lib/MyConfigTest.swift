@@ -17,4 +17,9 @@ class MyConfigTest: XCTestCase {
         XCTAssertNotNil(envs.variable)
         XCTAssertNotEqual("", envs.variable)
     }
+
+    func testCIから環境変数を差しこめているか() {
+        let envs = MyConfig()
+        XCTAssertEqual("sampleValue", envs.variable)
+    }
 }
