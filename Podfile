@@ -11,6 +11,9 @@ end
 
 plugin 'cocoapods-keys', {
   :project => "NankaProjectName",
-  :keys => [ 'KonoProjectDeTukauValue' ]
+  :keys => [
+    'KonoProjectDeTukauValue',
+    'KonoProjectNoDevValue',
+  ]
 }
 
