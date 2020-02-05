@@ -19,6 +19,6 @@ class MyConfigTest: XCTestCase {
 
     func testCIから環境変数を差しこめているか() {
         let actual = MyConfig.variable
-        XCTAssertEqual("this is a secret value.", actual)
+        XCTAssertEqual("secret(notprint$able", actual)
     }
 }
