@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "NankaProjectNameKeys.h"
+#import "MyProjectNameKeys.h"
 
 FOUNDATION_EXPORT double KeysVersionNumber;
 FOUNDATION_EXPORT const unsigned char KeysVersionString[];
