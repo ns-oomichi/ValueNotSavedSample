@@ -10,7 +10,7 @@ import Keys
 
 struct MyConfig {
     static var variable: String {
-        let keys = MyProjectNameKeys()
+        let keys = ValueNotSavedSampleKeys()
         return keys.mySecretValue
     }
 }

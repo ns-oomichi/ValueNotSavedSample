@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		13799D19DD4F4DEBAA724AFA688D1913 /* Pods-ValueNotSavedSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45830F2C84226494F627AC52FA7B38EB /* Pods-ValueNotSavedSample-dummy.m */; };
+		2CDC4DC099C3ADDBCA90C3FEE10415F3 /* ValueNotSavedSampleKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC523E8B90184EEAA6650D5555653F5 /* ValueNotSavedSampleKeys.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		30FAF1DB1DA627F07E982E08426AD5B4 /* Keys-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CC0A9ED618B21156BB5AE86DDE78E8 /* Keys-library-dummy.m */; };
 		64D732DDB28163657CA877D932E1B586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6C93634F40EC87258376A5DB077CEB81 /* Keys-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 730F597BA38887195E1813A5B33FFC83 /* Keys-library-dummy.m */; };
-		9EBD0DD9DBD895602B71D3F1C50AAE74 /* Keys-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0918191F3C49F52347B9FC66A31A9EA7 /* Keys-framework-dummy.m */; };
-		A276AA7355A7E951A26600E605E9E121 /* MyProjectNameKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D62EEBF35684623AE48857CD7EF59B /* MyProjectNameKeys.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9FEE1C66838628E1043633DDD39E36E7 /* ValueNotSavedSampleKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC523E8B90184EEAA6650D5555653F5 /* ValueNotSavedSampleKeys.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A5B9BCF9A2D0E0E680441C12C4D6C8A9 /* Pods-ValueNotSavedSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD0B15FC6AB4F09C5126951B9375611 /* Pods-ValueNotSavedSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A64FB57553DD75C9DA76364FC68E0FA1 /* Keys-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 882C69B33A6AE7EF0DDB551CA81CE9C4 /* Keys-framework-dummy.m */; };
+		B44F1D7AE61CBC7125C76F6966972A16 /* ValueNotSavedSampleKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 595C462319CEE9EBA73EE7C50BCD3BC4 /* ValueNotSavedSampleKeys.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BC8F6B90F7F96950DD0A64C8A13371CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C2F548A28CA7840542F16EFF819E31F8 /* MyProjectNameKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D62F93F0050E4A067BB2095ACA53446 /* MyProjectNameKeys.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CFE9FE0368D18A577818E1D1410E89FC /* MyProjectNameKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D62EEBF35684623AE48857CD7EF59B /* MyProjectNameKeys.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E749FC621CDBA6557AB97BD2DDE75A5C /* Keys-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AEF35B34E74DBF746F1CF438CBD211D /* Keys-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED02A747D4AFEFDDB6DEA1F6D555BCDF /* MyProjectNameKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D62F93F0050E4A067BB2095ACA53446 /* MyProjectNameKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E88B5093B188BA6EEA022CA6E2B1ED /* Keys-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9AE2C5CF4AD394A02A44BD64F54C441 /* Keys-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC142445B29CDD2A9E4B8A8D348C86EC /* ValueNotSavedSampleKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 595C462319CEE9EBA73EE7C50BCD3BC4 /* ValueNotSavedSampleKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,32 +31,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0918191F3C49F52347B9FC66A31A9EA7 /* Keys-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Keys-framework-dummy.m"; sourceTree = "<group>"; };
-		0AEF35B34E74DBF746F1CF438CBD211D /* Keys-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keys-framework-umbrella.h"; sourceTree = "<group>"; };
-		23D62EEBF35684623AE48857CD7EF59B /* MyProjectNameKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyProjectNameKeys.m; sourceTree = "<group>"; };
 		2DD0B15FC6AB4F09C5126951B9375611 /* Pods-ValueNotSavedSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ValueNotSavedSample-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FC523E8B90184EEAA6650D5555653F5 /* ValueNotSavedSampleKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ValueNotSavedSampleKeys.m; sourceTree = "<group>"; };
 		4425163C0C62046B30F7C9769917D9C1 /* Pods-ValueNotSavedSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ValueNotSavedSample.debug.xcconfig"; sourceTree = "<group>"; };
 		45830F2C84226494F627AC52FA7B38EB /* Pods-ValueNotSavedSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ValueNotSavedSample-dummy.m"; sourceTree = "<group>"; };
+		47F7FCEA8AA47B122123008891D4D41C /* Keys.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Keys.podspec.json; sourceTree = "<group>"; };
+		496C1B475CC5D164D0C006AF3AA2A3B4 /* Keys-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keys-framework-prefix.pch"; sourceTree = "<group>"; };
+		595C462319CEE9EBA73EE7C50BCD3BC4 /* ValueNotSavedSampleKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ValueNotSavedSampleKeys.h; sourceTree = "<group>"; };
 		5A31C3FBDFC473EB394EBFD705A29357 /* Pods_ValueNotSavedSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ValueNotSavedSample.framework; path = "Pods-ValueNotSavedSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C812D9CCB935B5F9856DF371AF576FA /* Keys-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Keys-library.xcconfig"; path = "../Keys-library/Keys-library.xcconfig"; sourceTree = "<group>"; };
-		6690FD730136F5380DED60A1180E4D91 /* Keys-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Keys-framework-Info.plist"; sourceTree = "<group>"; };
+		5E6DE8008D56B29219DE97C62318B9D7 /* Keys-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Keys-library-prefix.pch"; path = "../Keys-library/Keys-library-prefix.pch"; sourceTree = "<group>"; };
 		6B53935D94F695609AAEDF5B40F98D9F /* Pods-ValueNotSavedSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ValueNotSavedSample-Info.plist"; sourceTree = "<group>"; };
-		72E1C18C75E8CB13E60AC991D061E847 /* Keys-framework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Keys-framework.xcconfig"; sourceTree = "<group>"; };
-		730F597BA38887195E1813A5B33FFC83 /* Keys-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Keys-library-dummy.m"; path = "../Keys-library/Keys-library-dummy.m"; sourceTree = "<group>"; };
-		742D8BA3968CE249CE3CD29FE64E5517 /* Keys-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Keys-library-prefix.pch"; path = "../Keys-library/Keys-library-prefix.pch"; sourceTree = "<group>"; };
+		71CC0A9ED618B21156BB5AE86DDE78E8 /* Keys-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Keys-library-dummy.m"; path = "../Keys-library/Keys-library-dummy.m"; sourceTree = "<group>"; };
 		77910AA17CBFDBCB2FF54355FEFFA834 /* Pods-ValueNotSavedSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ValueNotSavedSample.release.xcconfig"; sourceTree = "<group>"; };
+		780074636E6A1C8C8C4476B8B1EF6B32 /* Keys-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Keys-framework.modulemap"; sourceTree = "<group>"; };
 		7F24D97FEA609CA6E2693CCD76F52962 /* Pods-ValueNotSavedSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ValueNotSavedSample.modulemap"; sourceTree = "<group>"; };
 		808E8D62DFCF41375C3605C6B7A7B6EA /* Pods-ValueNotSavedSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ValueNotSavedSample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8D62F93F0050E4A067BB2095ACA53446 /* MyProjectNameKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyProjectNameKeys.h; sourceTree = "<group>"; };
+		882C69B33A6AE7EF0DDB551CA81CE9C4 /* Keys-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Keys-framework-dummy.m"; sourceTree = "<group>"; };
+		9467B3924E4929E7326D1FDF9807C8E4 /* Keys-framework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Keys-framework.xcconfig"; sourceTree = "<group>"; };
 		966BC3CD70B172F76AC5B852770E3015 /* Pods-ValueNotSavedSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ValueNotSavedSample-frameworks.sh"; sourceTree = "<group>"; };
+		97E5F6080410763199D7F1C56022ED47 /* Keys-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Keys-framework-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B4A1398C72368A0FAF060F9655B25E9F /* Keys-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Keys-framework.modulemap"; sourceTree = "<group>"; };
 		B62CED338872EF536910A466267352B5 /* Keys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Keys.framework; path = "Keys-framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C412B6A84CFD12AEF357F7B2BB69BA4F /* Keys.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Keys.podspec.json; sourceTree = "<group>"; };
-		C7A912D33DC055FFD7F9A481B597FBCF /* Keys-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keys-framework-prefix.pch"; sourceTree = "<group>"; };
+		C9AE2C5CF4AD394A02A44BD64F54C441 /* Keys-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keys-framework-umbrella.h"; sourceTree = "<group>"; };
 		D4B5FC1A8F44103C20C834E5CAAEC363 /* libKeys-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libKeys-library.a"; path = "libKeys-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6F8AA1A9497F6F200E0D749215C24F /* Pods-ValueNotSavedSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ValueNotSavedSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE05AE2F1503158BE1659460248A3BD0 /* Keys-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Keys-library.xcconfig"; path = "../Keys-library/Keys-library.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28AD1D74B3F8D29D46F61FBEB3AE9F7C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				780074636E6A1C8C8C4476B8B1EF6B32 /* Keys-framework.modulemap */,
+				9467B3924E4929E7326D1FDF9807C8E4 /* Keys-framework.xcconfig */,
+				882C69B33A6AE7EF0DDB551CA81CE9C4 /* Keys-framework-dummy.m */,
+				97E5F6080410763199D7F1C56022ED47 /* Keys-framework-Info.plist */,
+				496C1B475CC5D164D0C006AF3AA2A3B4 /* Keys-framework-prefix.pch */,
+				C9AE2C5CF4AD394A02A44BD64F54C441 /* Keys-framework-umbrella.h */,
+				FE05AE2F1503158BE1659460248A3BD0 /* Keys-library.xcconfig */,
+				71CC0A9ED618B21156BB5AE86DDE78E8 /* Keys-library-dummy.m */,
+				5E6DE8008D56B29219DE97C62318B9D7 /* Keys-library-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Keys-framework";
+			sourceTree = "<group>";
+		};
 		4C32E25B6D27FFBA032B70472BF0A40F /* Pods-ValueNotSavedSample */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,13 +120,21 @@
 			path = "Target Support Files/Pods-ValueNotSavedSample";
 			sourceTree = "<group>";
 		};
-		4FEEFFCBF0C46DE9D03886901299A184 /* Keys */ = {
+		5B8665F9120BF7BE3789B8EB63D70134 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8D62F93F0050E4A067BB2095ACA53446 /* MyProjectNameKeys.h */,
-				23D62EEBF35684623AE48857CD7EF59B /* MyProjectNameKeys.m */,
-				CA48D3170AA8AC66798FF9670D341465 /* Pod */,
-				A7DA5C47D61B90997A1DC0F723B41834 /* Support Files */,
+				47F7FCEA8AA47B122123008891D4D41C /* Keys.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6AA586AC0F5432A6D853411F2C98D3B1 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				595C462319CEE9EBA73EE7C50BCD3BC4 /* ValueNotSavedSampleKeys.h */,
+				3FC523E8B90184EEAA6650D5555653F5 /* ValueNotSavedSampleKeys.m */,
+				5B8665F9120BF7BE3789B8EB63D70134 /* Pod */,
+				28AD1D74B3F8D29D46F61FBEB3AE9F7C /* Support Files */,
 			);
 			name = Keys;
 			path = CocoaPodsKeys;
@@ -128,7 +153,7 @@
 		918C67CEDF38AB6FC9603B3803A92E0F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4FEEFFCBF0C46DE9D03886901299A184 /* Keys */,
+				6AA586AC0F5432A6D853411F2C98D3B1 /* Keys */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -141,37 +166,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A7DA5C47D61B90997A1DC0F723B41834 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B4A1398C72368A0FAF060F9655B25E9F /* Keys-framework.modulemap */,
-				72E1C18C75E8CB13E60AC991D061E847 /* Keys-framework.xcconfig */,
-				0918191F3C49F52347B9FC66A31A9EA7 /* Keys-framework-dummy.m */,
-				6690FD730136F5380DED60A1180E4D91 /* Keys-framework-Info.plist */,
-				C7A912D33DC055FFD7F9A481B597FBCF /* Keys-framework-prefix.pch */,
-				0AEF35B34E74DBF746F1CF438CBD211D /* Keys-framework-umbrella.h */,
-				5C812D9CCB935B5F9856DF371AF576FA /* Keys-library.xcconfig */,
-				730F597BA38887195E1813A5B33FFC83 /* Keys-library-dummy.m */,
-				742D8BA3968CE249CE3CD29FE64E5517 /* Keys-library-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Keys-framework";
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		CA48D3170AA8AC66798FF9670D341465 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C412B6A84CFD12AEF357F7B2BB69BA4F /* Keys.podspec.json */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -196,12 +196,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0AD43BB50FF1A979E1B8DB283301CC80 /* Headers */ = {
+		1EFFDE4FFF2DFA52954BC72367B891A7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E749FC621CDBA6557AB97BD2DDE75A5C /* Keys-framework-umbrella.h in Headers */,
-				ED02A747D4AFEFDDB6DEA1F6D555BCDF /* MyProjectNameKeys.h in Headers */,
+				B44F1D7AE61CBC7125C76F6966972A16 /* ValueNotSavedSampleKeys.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,11 +212,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE638C0FDD0480ADE190B379B4C5D73E /* Headers */ = {
+		E474C5E3B0531EFB428B18D7D93E14AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F548A28CA7840542F16EFF819E31F8 /* MyProjectNameKeys.h in Headers */,
+				C0E88B5093B188BA6EEA022CA6E2B1ED /* Keys-framework-umbrella.h in Headers */,
+				FC142445B29CDD2A9E4B8A8D348C86EC /* ValueNotSavedSampleKeys.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,8 +228,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCAF2D4F6DA3675EE6B322F94F112296 /* Build configuration list for PBXNativeTarget "Keys-framework" */;
 			buildPhases = (
-				0AD43BB50FF1A979E1B8DB283301CC80 /* Headers */,
-				BC1614D34E1B4DCB543548883D04A9E6 /* Sources */,
+				E474C5E3B0531EFB428B18D7D93E14AA /* Headers */,
+				882A8F55A443513BC4E2CD1D62E5B042 /* Sources */,
 				0E0395645B93C69E81C49F2D6C8C1B50 /* Frameworks */,
 				84A6702546D8EB254002AF0E6A015CC8 /* Resources */,
 			);
@@ -265,8 +265,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C99A9BA62586559FDA03A3119F8C231E /* Build configuration list for PBXNativeTarget "Keys-library" */;
 			buildPhases = (
-				AE638C0FDD0480ADE190B379B4C5D73E /* Headers */,
-				B7C0A516BE1442A396ECDB4F20A594C5 /* Sources */,
+				1EFFDE4FFF2DFA52954BC72367B891A7 /* Headers */,
+				C6DAD787ACA924244633DAFFB6EFF83A /* Sources */,
 				26730E4B10B82EC6D5FD3D1A4D6148C9 /* Frameworks */,
 			);
 			buildRules = (
@@ -325,6 +325,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		882A8F55A443513BC4E2CD1D62E5B042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64FB57553DD75C9DA76364FC68E0FA1 /* Keys-framework-dummy.m in Sources */,
+				2CDC4DC099C3ADDBCA90C3FEE10415F3 /* ValueNotSavedSampleKeys.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B287C502BA613B2827A166DF4216F948 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,21 +342,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7C0A516BE1442A396ECDB4F20A594C5 /* Sources */ = {
+		C6DAD787ACA924244633DAFFB6EFF83A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C93634F40EC87258376A5DB077CEB81 /* Keys-library-dummy.m in Sources */,
-				CFE9FE0368D18A577818E1D1410E89FC /* MyProjectNameKeys.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC1614D34E1B4DCB543548883D04A9E6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EBD0DD9DBD895602B71D3F1C50AAE74 /* Keys-framework-dummy.m in Sources */,
-				A276AA7355A7E951A26600E605E9E121 /* MyProjectNameKeys.m in Sources */,
+				30FAF1DB1DA627F07E982E08426AD5B4 /* Keys-library-dummy.m in Sources */,
+				9FEE1C66838628E1043633DDD39E36E7 /* ValueNotSavedSampleKeys.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +463,7 @@
 		};
 		7C33C9EADAA7BB2F8B018C224E17AFD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72E1C18C75E8CB13E60AC991D061E847 /* Keys-framework.xcconfig */;
+			baseConfigurationReference = 9467B3924E4929E7326D1FDF9807C8E4 /* Keys-framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -498,7 +498,7 @@
 		};
 		980FD05F4A21698DA423404E82DBB3E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C812D9CCB935B5F9856DF371AF576FA /* Keys-library.xcconfig */;
+			baseConfigurationReference = FE05AE2F1503158BE1659460248A3BD0 /* Keys-library.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -561,7 +561,7 @@
 		};
 		C328F914BE155B1F86091C326F1C0AD3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72E1C18C75E8CB13E60AC991D061E847 /* Keys-framework.xcconfig */;
+			baseConfigurationReference = 9467B3924E4929E7326D1FDF9807C8E4 /* Keys-framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -661,7 +661,7 @@
 		};
 		DE549368A11909CEBD61420FF0939437 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C812D9CCB935B5F9856DF371AF576FA /* Keys-library.xcconfig */;
+			baseConfigurationReference = FE05AE2F1503158BE1659460248A3BD0 /* Keys-library.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
