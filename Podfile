@@ -13,6 +13,7 @@ plugin 'cocoapods-keys', {
   :project => "ValueNotSavedSample",
   :keys => [
     'MySecretValue',
+    'MySecretValueDev',
   ]
 }
 

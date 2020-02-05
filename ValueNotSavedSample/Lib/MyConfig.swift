@@ -13,4 +13,9 @@ struct MyConfig {
         let keys = ValueNotSavedSampleKeys()
         return keys.mySecretValue
     }
+
+    static var variableDev: String {
+        let keys = ValueNotSavedSampleKeys()
+        return keys.mySecretValueDev
+    }
 }
