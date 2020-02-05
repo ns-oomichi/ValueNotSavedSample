@@ -12,14 +12,13 @@ import XCTest
 
 class MyConfigTest: XCTestCase {
     func test環境変数が取れるか() {
-        let envs = MyConfig()
-        print(envs.variable)
-        XCTAssertNotNil(envs.variable)
-        XCTAssertNotEqual("", envs.variable)
+        let actual = MyConfig.variable
+        XCTAssertNotNil(actual)
+        XCTAssertNotEqual("", actual)
     }
 
     func testCIから環境変数を差しこめているか() {
-        let envs = MyConfig()
-        XCTAssertEqual("sampleValue", envs.variable)
+        let actual = MyConfig.variable
+        XCTAssertEqual("this is a secret value.", actual)
     }
 }

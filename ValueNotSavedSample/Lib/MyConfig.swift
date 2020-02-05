@@ -9,7 +9,8 @@
 import Keys
 
 struct MyConfig {
-    var variable: String {
-        return NankaProjectNameKeys().konoProjectDeTukauValue
+    static var variable: String {
+        let keys = MyProjectNameKeys()
+        return keys.mySecretValue
     }
 }
