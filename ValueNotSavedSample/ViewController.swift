@@ -15,6 +15,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        print(NankaProjectNameKeys().konoProjectDeTukauValue)
+        print(MyConfig.variable)
     }
 }

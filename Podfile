@@ -10,7 +10,10 @@ target 'ValueNotSavedSample' do
 end
 
 plugin 'cocoapods-keys', {
-  :project => "NankaProjectName",
-  :keys => [ 'KonoProjectDeTukauValue' ]
+  :project => "ValueNotSavedSample",
+  :keys => [
+    'MySecretValue',
+    'MySecretValueDev',
+  ]
 }
 
