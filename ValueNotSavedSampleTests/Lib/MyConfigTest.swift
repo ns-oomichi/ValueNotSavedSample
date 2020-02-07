@@ -17,10 +17,10 @@ class MyConfigTest: XCTestCase {
         XCTAssertNotEqual("", actual)
     }
 
-    func testCIから環境変数を差しこめているか() {
-        let actual = MyConfig.variable
-        XCTAssertEqual("secret(notprint$able", actual)
-    }
+//    func testCIから環境変数を差しこめているか() {
+//        let actual = MyConfig.variable
+//        XCTAssertEqual("secret(notprint$able", actual)
+//    }
 
     func test別の変数が取れるか() {
         let actual = MyConfig.variableDev
@@ -28,14 +28,14 @@ class MyConfigTest: XCTestCase {
         XCTAssertNotEqual("", actual)
     }
 
-    func test二つの変数の値が異なるか() {
-        let actual1 = MyConfig.variable
-        let actual2 = MyConfig.variableDev
-        XCTAssertNotEqual(actual1, actual2)
-    }
-
-    func test二つ目の変数が外部から設定できているか() {
-        let actual = MyConfig.variableDev
-        XCTAssertEqual("thi$ i$ a lIttLe bit compLex vaLue.", actual)
-    }
+//    func test二つの変数の値が異なるか() {
+//        let actual1 = MyConfig.variable
+//        let actual2 = MyConfig.variableDev
+//        XCTAssertNotEqual(actual1, actual2)
+//    }
+//
+//    func test二つ目の変数が外部から設定できているか() {
+//        let actual = MyConfig.variableDev
+//        XCTAssertEqual("thi$ i$ a lIttLe bit compLex vaLue.", actual)
+//    }
 }
